@@ -336,7 +336,7 @@ public class SettingHook {
         dialogProxyRoot.addView(proxyOriginalView);
        // dialogProxyRoot.addView(proxykuwoView);
         dialogProxyRoot.addView(proxyqqView);
-       // dialogProxyRoot.addView(proxymiguView);
+        dialogProxyRoot.addView(proxymiguView);
         new AlertDialog.Builder(context)
                 .setView(dialogProxyRoot)
                 .setCancelable(true)
